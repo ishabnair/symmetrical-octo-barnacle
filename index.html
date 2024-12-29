@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Your Books</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Customize Your Books</h1>
+        <p>Create personalized books that reflect your unique style.</p>
+    </header>
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <h3>Book Customization Options</h3>
+            <p>Choose from different sizes, cover materials, binding types, and more!</p>
+        </div>
+        <div class="feature">
+            <h3>Interactive Customization Tool</h3>
+            <p>Preview your customizations in real-time and design your cover with ease.</p>
+        </div>
+        <div class="feature">
+            <h3>Product Catalog</h3>
+            <p>Explore various themes and styles to find the perfect design.</p>
+        </div>
+        <div class="feature">
+            <h3>User Input</h3>
+            <p>Share your preferences and upload your artwork for a truly personalized book.</p>
+        </div>
+        <div class="feature">
+            <h3>E-commerce Integration</h3>
+            <p>Seamlessly add your customized book to the cart and checkout securely.</p>
+        </div>
+        <div class="feature">
+            <h3>Responsive Design</h3>
+            <p>Access and customize your books from any device, anywhere.</p>
+        </div>
+    </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Your Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="hero">
+            <h1>Customize Your Book</h1>
+            <p>Design your book exactly how you like it!</p>
+        </div>
+    </header>
+
+    <!-- Customization Form -->
+    <section id="customization-form">
+        <h2>Book Customization</h2>
+        <form id="customizeForm">
+            <!-- Book Options -->
+            <div class="form-group">
+                <label for="bookSize">Book Size:</label>
+                <select id="bookSize" name="bookSize" required>
+                    <option value="small">Small (5x7 inches)</option>
+                    <option value="medium">Medium (6x9 inches)</option>
+                    <option value="large">Large (8x11 inches)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="coverMaterial">Cover Material:</label>
+                <select id="coverMaterial" name="coverMaterial" required>
+                    <option value="hardcover">Hardcover</option>
+                    <option value="softcover">Softcover</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bindingType">Binding Type:</label>
+                <select id="bindingType" name="bindingType" required>
+                    <option value="spiral">Spiral</option>
+                    <option value="stitched">Stitched</option>
+                    <option value="glued">Glued</option>
+                </select>
+            </div>
+
+            <!-- Custom Cover Text -->
+            <div class="form-group">
+                <label for="coverText">Custom Cover Text:</label>
+                <input type="text" id="coverText" name="coverText" placeholder="Enter your title" required>
+            </div>
+
+            <!-- Upload Cover Image -->
+            <div class="form-group">
+                <label for="coverImage">Upload Cover Image:</label>
+                <input type="file" id="coverImage" name="coverImage" accept="image/*">
+            </div>
+
+            <!-- Preview Button -->
+            <div class="form-group">
+                <button type="button" id="previewButton">Preview Your Design</button>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit">Add to Cart</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Preview Section -->
+    <section id="preview">
+        <h2>Design Preview</h2>
+        <div id="previewCanvas">
+            <p>Your customized design will appear here.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Customize Your Books. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery/Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="hero">
+            <h1>Gallery & Shop</h1>
+            <p>Explore and customize your favorite book designs.</p>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Available Designs</h2>
+        <div class="gallery-container">
+            <!-- Item 1 -->
+            <div class="gallery-item">
+                <img src="book1.jpg" alt="Custom Book 1">
+                <h3>Elegant Hardcover</h3>
+                <p>$20.00</p>
+                <a href="customize.html" class="btn">Customize</a>
+            </div>
+            <!-- Item 2 -->
+            <div class="gallery-item">
+                <img src="book2.jpg" alt="Custom Book 2">
+                <h3>Softcover Journal</h3>
+                <p>$15.00</p>
+                <a href="customize.html" class="btn">Customize</a>
+            </div>
+            <!-- Item 3 -->
+            <div class="gallery-item">
+                <img src="book3.jpg" alt="Custom Book 3">
+                <h3>Modern Notebook</h3>
+                <p>$18.00</p>
+                <a href="customize.html" class="btn">Customize</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Customize Your Books. All Rights Reserved.</p>
+        <p><a href="#contact">Contact Us</a></p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="hero">
+            <h1>Checkout</h1>
+            <p>Complete your order and bring your personalized book to life.</p>
+        </div>
+    </header>
+
+    <!-- Checkout Form Section -->
+    <section id="checkout">
+        <h2>Order Summary</h2>
+        <div id="order-summary">
+            <p><strong>Item:</strong> Modern Notebook</p>
+            <p><strong>Customization:</strong> Hardcover, Spiral Binding, Title: "My Custom Notebook"</p>
+            <p><strong>Total Price:</strong> $18.00</p>
+        </div>
+
+        <h2>Billing Information</h2>
+        <form id="checkoutForm">
+            <!-- Personal Details -->
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <!-- Shipping Address -->
+            <h3>Shipping Address</h3>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="state">State/Province:</label>
+                <input type="text" id="state" name="state" required>
+            </div>
+            <div class="form-group">
+                <label for="zip">Postal Code:</label>
+                <input type="text" id="zip" name="zip" required>
+            </div>
+
+            <!-- Payment Details -->
+            <h3>Payment Details</h3>
+            <div class="form-group">
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+            </div>
+            <div class="form-group">
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" required>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn">Place Order</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Customize Your Books. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="hero">
+            <h1>About Us</h1>
+            <p>Learn more about our mission, vision, and story.</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Our Story</h2>
+        <p>
+            At <strong>Customize Your Books</strong>, we are passionate about helping people bring their unique book ideas to life. 
+            Whether it’s for journaling, sketching, or storytelling, our mission is to empower creativity through customized book designs.
+        </p>
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li>High-quality materials for durability and style.</li>
+            <li>Customizable options to suit every need.</li>
+            <li>Exceptional customer support to assist with your orders.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Customize Your Books. All Rights Reserved.</p>
+        <p><a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="hero">
+            <h1>Contact Us</h1>
+            <p>Have questions? We’d love to hear from you!</p>
+        </div>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Customize Your Books. All Rights Reserved.</p>
+        <p><a href="about.html">About Us</a></p>
+    </footer>
+
+    <!-- Script -->
+    <script src="scripts.js"></script>
+</body>
+</html>
